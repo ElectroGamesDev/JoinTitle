@@ -1,0 +1,4 @@
+# This is the message that will show up in the Title.
+TitleMessage: "§l§6Welcome!"
+# This is the message that will show up in the Action Bar.
+ActionMessage: "Welcome!";
