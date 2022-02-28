@@ -16,7 +16,7 @@ class JoinTitle extends PluginBase implements Listener{
     {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->titleMsg = $this->getServer()->getConfig()->get("TitleMessage");
-        $thid->popupMsg = $this->getServer()->getConfig()->get("ActionMessage"):
+        $this->popupMsg = $this->getServer()->getConfig()->get("ActionMessage"):
     }
   
     public function onLogin(PlayerLoginEvent $event) 
